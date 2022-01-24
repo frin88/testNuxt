@@ -1,12 +1,12 @@
 <template>
   <ul
-    v-editable="blok"
+    v-editable="block"
     class="flex py-8 mb-6">
     <li
-      :key="blok._uid"
-      v-for="blok in blok.columns"
+      :key="block._uid"
+      v-for="block in block.columns"
       class="flex-auto px-6">
-      <component :blok="blok" :is="blok.component" />
+      <component :block="block" :is="block.component" />
     </li>
   </ul>
 </template>
@@ -14,7 +14,7 @@
 <script>
 export default {
   props: {
-    blok: {
+    block: {
       type: Object,
       required: true
     }
