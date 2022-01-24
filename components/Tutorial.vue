@@ -1,7 +1,7 @@
 <!-- Please remove this file from your project -->
 <template>
 <div class="tutorial">
-  TEST SCSS
+  TEST NUXT.js
 </div>
 </template>
 
