@@ -1,0 +1,14 @@
+{
+    "index": {
+        "TVACard": [
+            {
+                "cardSize": "big",
+                "cardType": "text"
+            },
+            {
+                "cardSize": "small",
+                "cardType": "text"
+            }
+        ]
+    }
+}

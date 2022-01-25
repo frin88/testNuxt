@@ -10,3 +10,10 @@ Vue.use(tvaMq, {
   desktop: Infinity,
   large: Infinity,
 });
+
+
+
+// Svg icon
+import VueSVGIcon from 'vue-svgicon';
+import 'vue-svgicon/dist/polyfill';
+Vue.use(VueSVGIcon);

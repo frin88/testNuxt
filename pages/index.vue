@@ -22,7 +22,7 @@ export default {
   },
   mounted() {
 
-    console.log('tvaMq', this.$tvaMq)
+  
     this.$storybridge(
       () => {
         const storyblokInstance = new StoryblokBridge();
@@ -84,3 +84,37 @@ export default {
   },
 };
 </script>
+
+
+<style lang="scss">
+// GLOBAL
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+</style>
+
+<style lang="scss" scoped>
+#app {
+  *,
+  ::before,
+  ::after {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+  }
+  .link {
+    margin-right: 10px;
+  }
+  &.mobile {
+    // overflow-x: hidden;
+  }
+}
+</style>
