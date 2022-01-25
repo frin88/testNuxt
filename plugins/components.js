@@ -10,3 +10,4 @@ Vue.component('teaser', Teaser)
 Vue.component('grid', Grid)
 Vue.component('feature', Feature)
 Vue.component('imageAndText', imageAndText)
+

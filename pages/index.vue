@@ -21,6 +21,8 @@ export default {
     };
   },
   mounted() {
+
+    console.log('tvaMq', this.$tvaMq)
     this.$storybridge(
       () => {
         const storyblokInstance = new StoryblokBridge();
